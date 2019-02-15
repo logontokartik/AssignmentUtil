@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Object_Name__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Object Name</label>
+        <referenceTo>EntityDefinition</referenceTo>
+        <relationshipLabel>Assignments</relationshipLabel>
+        <relationshipName>Assignments</relationshipName>
+        <required>true</required>
+        <type>MetadataRelationship</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>whereClause__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>do not include WHERE</inlineHelpText>
+        <label>whereClause</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>Assignment Config</label>
+    <pluralLabel>Assignments</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
