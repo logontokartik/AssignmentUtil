@@ -13,3 +13,6 @@ logic to re-assign records. You can put in any complex where clause.
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
+
+### Note
+The whereClause field on Custom Metadata Type might be hidden, please change the page layout to choose the field onto the layout.
